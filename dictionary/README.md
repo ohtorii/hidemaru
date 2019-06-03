@@ -12,7 +12,7 @@ MAYA MEL Scriptの辞書ファイルです。
 
 ## 補足
 
-MELコマンド一覧は以下の一行スクリプトで得ています。
+MELコマンド一覧は以下の一行スクリプトで得ています。（約5000個の単語をリストアップしています）
 
 	help -l "*";
 
@@ -24,6 +24,26 @@ MELコマンド一覧は以下の一行スクリプトで得ています。
 # のどかの辞書ファイル
 
 [汎用キーバインディング変更ソフト「のどか」](https://appletllc.com/web/nodoka.htm)の辞書ファイルです。
+
+辞書に含まれる内容
+
+|項目|内容|
+|:--:|:--:|
+|真偽値|enable,disable,...|
+|命令|key,keymap,...|
+|オプション|ats4nodoka,before-key-down...|
+|Function|&CancelPrefix,&ClipboardCopy,...|
+
+## 単語補完の検索対象の詳細
+
+以下キーワードを候補に挙げるため、
+
+- &CancelPrefix, ...
+- before-key-down, ...
+
+単語補完を下記画像のように設定してください。
+
+![nodoka設定](images/nodoka_1.png "nodoka設定")
 
 ## ファイル
 
