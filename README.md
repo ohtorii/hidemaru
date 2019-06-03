@@ -4,8 +4,8 @@
 
 |フォルダ|説明|
 |:--:|:--:|
-|[hilight](hilight)|強調表示ファイル|
-|[dictionary](dictionary)|辞書ファイル|
+|[hilight](hilight/README.md)|強調表示ファイル|
+|[dictionary](dictionary/README.md)|辞書ファイル|
 
 
 
