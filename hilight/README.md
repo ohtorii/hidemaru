@@ -77,7 +77,8 @@ VIMスクリプトのコードリーディングを主目的として以下方�
 スクリーンショット
 ![スクリーンショット](images/nodoka_solarized-light.png "スクリーンショット")
 
-- 強調表示定義ファイルを読み込むときに「カラー」を選択すると、上のスクリーンショットと同じ配色になります。
+強調表示定義ファイルを読み込むときに「カラー」を選択すると、上のスクリーンショットと同じ配色(solarized-light)になります。
+solarized-lightは[https://github.com/Harurow/Hidemaru-Settings](https://github.com/Harurow/Hidemaru-Settings)を使わせて貰いました😃😃😃
 
 ## ファイル
 
