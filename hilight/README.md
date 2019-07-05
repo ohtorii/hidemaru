@@ -97,6 +97,12 @@ solarized-lightは[https://github.com/Harurow/Hidemaru-Settings](https://github.
 
 カラー定義は[monokai-color.hilight(rev.1.1)](http://www.wellformed.org/2016/hidemaru/monokai-color/)を使わせて貰いました😃😃😃
 
+## 謝辞
+- [cmake.vim : CMake syntax highlighting ](https://www.vim.org/scripts/script.php?script_id=600)
+- [CMake plugin for IntelliJ Idea CE and Android Studio](https://github.com/ArtsiomCh/CMake)
+
+かなり参考にしました、感謝😘
+
 ## ファイル
 
 [cmake.hilight](files/cmake.hilight)
