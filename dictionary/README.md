@@ -1,7 +1,9 @@
 # 秀丸エディタの辞書ファイル
 
+- [秀丸エディタの辞書ファイル](#秀丸エディタの辞書ファイル)
 - [MEL Script(Autodesk MAYA 2019)の辞書ファイル](#mel-scriptautodesk-maya-2019の辞書ファイル)
 - [のどかの辞書ファイル](#のどかの辞書ファイル)
+- [CMake](#cmake)
 - [ダウンロード](#ダウンロード)
 - [連絡先](#連絡先)
 
@@ -48,6 +50,23 @@ MELコマンド一覧は以下の一行スクリプトで得ています。（�
 ## ファイル
 
 [nodoka.txt](files/nodoka.txt)
+
+# CMake
+
+[CMake](https://cmake.org/)（ビルド自動化のためのフリーソフトウェア）の辞書ファイルです。
+
+約1300個の単語が登録されています。
+
+## ファイル
+
+[cmake.txt](files/cmake.txt)
+
+
+## 謝辞
+- [cmake.vim : CMake syntax highlighting ](https://www.vim.org/scripts/script.php?script_id=600)
+- [CMake plugin for IntelliJ Idea CE and Android Studio](https://github.com/ArtsiomCh/CMake)
+
+かなり参考にしました、感謝😘
 
 # ダウンロード
 
