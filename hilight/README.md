@@ -84,6 +84,20 @@ solarized-lightは[https://github.com/Harurow/Hidemaru-Settings](https://github.
 
 [nodoka.hilight](files/nodoka.hilight)
 
+# CMakeの強調表示
+
+[CMake](https://cmake.org/)（ビルド自動化のためのフリーソフトウェア）の強調表示です。
+
+スクリーンショット
+![スクリーンショット](images/cmake_monokai.png "スクリーンショット")
+強調表示定義ファイルを読み込むときに「カラー」を選択すると、上のスクリーンショットと同じ配色(monokai)になります。
+
+カラー定義は[monokai-color.hilight(rev.1.1)](http://www.wellformed.org/2016/hidemaru/monokai-color/)を使わせて貰いました😃😃😃
+
+## ファイル
+
+[cmake.hilight](files/cmake.hilight)
+
 
 # ダウンロード
 
