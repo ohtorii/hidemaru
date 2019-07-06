@@ -57,6 +57,9 @@ MELコマンド一覧は以下の一行スクリプトで得ています。（�
 
 約1300個の単語が登録されています。
 
+## 設定方法
+![cmake設定](images/cmake.png "cmake設定")
+
 ## ファイル
 
 [cmake.txt](files/cmake.txt)
