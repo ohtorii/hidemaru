@@ -1,14 +1,15 @@
 # 秀丸エディタの辞書ファイル
 
-- [秀丸エディタの辞書ファイル](#秀丸エディタの辞書ファイル)
-- [MEL Script(Autodesk MAYA 2019)の辞書ファイル](#mel-scriptautodesk-maya-2019の辞書ファイル)
-- [のどかの辞書ファイル](#のどかの辞書ファイル)
+辞書一覧
+- [MEL Script(Autodesk MAYA 2019)](#mel-scriptautodesk-maya-2019)
+- [HLSL](#hlsl)
+- [のどか](#のどか)
 - [CMake](#cmake)
 - [ダウンロード](#ダウンロード)
 - [連絡先](#連絡先)
 
 
-# MEL Script(Autodesk MAYA 2019)の辞書ファイル
+# MEL Script(Autodesk MAYA 2019)
 
 MAYA MEL Scriptの辞書ファイルです。
 
@@ -22,8 +23,25 @@ MELコマンド一覧は以下の一行スクリプトで得ています。（�
 
 [maya_mel.txt](files/maya_mel.txt)
 
+# HLSL
 
-# のどかの辞書ファイル
+HLSL(High Level Shading Language)の辞書ファイルです。
+
+約900個の単語が含まれています。MAYAとSoftimage XSI特有の単語も登録しています。
+
+## 設定方法
+![HLSL設定](images/hlsl.png "HLSL設定")
+
+## ファイル
+
+[hlsl.txt](files/hlsl.txt)
+
+## 謝辞
+- [hlsl.vim](https://github.com/beyondmarc/hlsl.vim)
+
+かなり参考にしました、感謝😘
+
+# のどか
 
 [汎用キーバインディング変更ソフト「のどか」](https://appletllc.com/web/nodoka.htm)の辞書ファイルです。
 
