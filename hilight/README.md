@@ -1,18 +1,21 @@
 # 秀丸エディタのハイライト設定集
 
-- [秀丸エディタのハイライト設定集](#秀丸エディタのハイライト設定集)
-- [Vim scriptの強調表示](#vim-scriptの強調表示)
-- [Shell Script(Bash)の強調表示](#shell-scriptbashの強調表示)
-- [MEL Script(Autodesk MAYA 2019)の強調表示](#mel-scriptautodesk-maya-2019の強調表示)
-- [MaxScript(Autodesk 3D Studio MAX)の強調表示](#maxscriptautodesk-3d-studio-maxの強調表示)
-- [「のどか」の強調表示](#のどかの強調表示)
-- [CMakeの強調表示](#cmakeの強調表示)
+もくじ
+
+- [Vim script](#vim-script)
+- [Shell Script(Bash)](#shell-scriptbash)
+- [MEL Script(Autodesk MAYA 2019)](#mel-scriptautodesk-maya-2019)
+- [MaxScript(Autodesk 3D Studio MAX)](#maxscriptautodesk-3d-studio-max)
+- [HLSL](#hlsl)
+- [のどか](#のどか)
+- [CMake](#cmake)
 - [ダウンロード](#ダウンロード)
 - [連絡先](#連絡先)
 
 
 
-# Vim scriptの強調表示
+
+# Vim script
 
 VIMスクリプトのコードリーディングを主目的として以下方針で作成しました。
 
@@ -21,6 +24,9 @@ VIMスクリプトのコードリーディングを主目的として以下方�
 
 スクリーンショット
 ![スクリーンショット](images/vim.png "スクリーンショット")
+
+強調表示定義ファイルを読み込むときに「カラー」を選択すると、上のスクリーンショットと同じ配色になります。
+
 
 ## 強調するもの
 
@@ -34,18 +40,15 @@ VIMスクリプトのコードリーディングを主目的として以下方�
 ## ファイル
 [vim.hilight](files/vim.hilight)
 
-## 補足
-
-強調表示定義ファイルを読み込むときに「カラー」を選択すると、上のスクリーンショットと同じ配色になります。
 
 
-# Shell Script(Bash)の強調表示
+# Shell Script(Bash)
 
 ## ファイル
 
 [shell.hilight](files/shell.hilight)
 
-# MEL Script(Autodesk MAYA 2019)の強調表示
+# MEL Script(Autodesk MAYA 2019)
 
 以下方針で作成しました。
 - MAYA 2019のスクリプトエディタのカラー表示にできるだけ近づける。
@@ -64,7 +67,7 @@ VIMスクリプトのコードリーディングを主目的として以下方�
 - 強調表示定義ファイルを読み込むときに「カラー」を選択すると、上のスクリーンショットと同じ配色になります。
 - 「ファイルメニュー→その他→ファイルタイプ別の設定→その他→単語補完→詳細(X)→強調表示の定義」の設定をONにすることでMELコマンド名の補完（約5000個）が効くようになります。
 
-# MaxScript(Autodesk 3D Studio MAX)の強調表示
+# MaxScript(Autodesk 3D Studio MAX)
 
 ここ10年以上メンテしていませんが、とりあえずアップしました😅😅😅
 
@@ -72,8 +75,48 @@ VIMスクリプトのコードリーディングを主目的として以下方�
 
 [maxscript.hilight](files/maxscript.hilight)
 
+# HLSL	
 
-# 「のどか」の強調表示
+HLSL(High Level Shading Language)の強調表示です。
+
+スクリーンショット
+![スクリーンショット](images/hlsl.png "スクリーンショット")
+
+強調表示定義ファイルを読み込むときに「カラー」を選択すると、上のスクリーンショットと同じ配色になります。
+
+## 強調するのも
+
+- 型(float,half4x4,min10float4x4...)
+- レイアウト指定(row_major,column_major...)
+- 組み込み関数(abs,sin...)
+- 制御文(if,while...)
+- Swizzling(xyzw,xxyy...)
+- セマンティクス(NORMAL,TESSFACTOR,SV_DispatchThreadID...)
+- サンプラー(sampler2d...)
+- テクスチャ(texture2d,texturecube...)
+- バッファ(cbuffer,rwstructuredbuffer...)
+- ストレージクラス(in,out,static...)
+- アトリビュート(maxvertexcount,domain...)
+- 構造体(struct...)
+- プリプロセッサ(#if,#endif...)
+- profile(techniques,fp40...)
+
+![設定](images/hlsl_setting.png "画像タイトル")
+
+見ての通り要素毎に細かく分けています、なので、好みに応じた配色にしてください。
+あと、不要な要素を削除することでシンプルなハイライトに出来ます。
+
+## アウトライン
+
+![アウトライン](images/hlsl_outliner.png "アウトライン")
+
+
+## ファイル
+
+[hlsl.hilight](files/hlsl.hilight)
+
+
+# のどか
 
 [汎用キーバインディング変更ソフト「のどか」](https://appletllc.com/web/nodoka.htm)の強調表示です。
 
@@ -87,7 +130,7 @@ solarized-lightは[https://github.com/Harurow/Hidemaru-Settings](https://github.
 
 [nodoka.hilight](files/nodoka.hilight)
 
-# CMakeの強調表示
+# CMake
 
 [CMake](https://cmake.org/)（ビルド自動化のためのフリーソフトウェア）の強調表示です。
 
