@@ -12,7 +12,7 @@
 115,(?#セマンティクス Geometry Shader)SV_GSInstanceID|SV_RenderTargetArrayIndex
 115,(?#セマンティクス Compute Shader)SV_DispatchThreadID|SV_GroupID|SV_GroupIndex|SV_GroupThreadID
 49,(?#キーワード)true|false|asm_fragment|BlendState|column_major|compile_frgment|discard|decl|inline|packoffset|pass|pixelfragment|register|row_major|stateblock|stateblock_state|varying|vertexfragment
-49,(?#アトリビュート)(^\s*\[maxvertexcount\(\d+\)\])|(^\s*\[domain\("(tri|quad|isoline)"\)\])|(^\s*\[earlydepthstencil\])|(^\s*\[instance\(\d+\)\])|(^\s*\[maxtessfactor\(\d+\)\])|(^\s*\[numthreads\(\s*\d+\s*,\s*\d+\s*,\s*\d+\s*\)\])|(^\s*\[outputcontrolpoints\(\d+\)\])|(^\s*\[outputtopology\("(point|line|triangle_cw|triangle_ccw)"\)\])|(^\s*\[partitioning\("(integer|fractional_even|fractional_odd|pow2)"\)\])|(^\s*\[patchconstantfunc\("[\d\c_]+"\)\])|(^\s*\[fastopt\])|(^\s*\[loop\])|(^\s*\[unroll\])|(^\s*\[allow_uav_condition\])|(^\s*\[branch\])|(^\s*\[flatten\])|(^\s*\[forcecase\])|(^\s*\[call\])
+49,(?#アトリビュート)(^\s*\[maxtessfactor\(\d+(\.\d+)?\)\]|^\s*\[maxvertexcount\(\d+\)\])|(^\s*\[domain\("(tri|quad|isoline)"\)\])|(^\s*\[earlydepthstencil\])|(^\s*\[instance\(\d+\)\])|(^\s*\[maxtessfactor\(\d+\)\])|(^\s*\[numthreads\(\s*\d+\s*,\s*\d+\s*,\s*\d+\s*\)\])|(^\s*\[outputcontrolpoints\(\d+\)\])|(^\s*\[outputtopology\("(point|line|triangle_cw|triangle_ccw)"\)\])|(^\s*\[partitioning\("(integer|fractional_even|fractional_odd|pow2)"\)\])|(^\s*\[patchconstantfunc\("[\d\c_]+"\)\])|(^\s*\[fastopt\])|(^\s*\[loop\])|(^\s*\[unroll\])|(^\s*\[allow_uav_condition\])|(^\s*\[branch\])|(^\s*\[flatten\])|(^\s*\[forcecase\])|(^\s*\[call\])
 371,(?#Swizzling)(\.[xyzw]{1,4})|(\.[rgba]{1,4})|(\.(_m[0-3]{2}){1,4})|(\.(_[1-4]{2}){1,4})
 49,(?#Storage class)in|out|inout|extern|nointerpolation|precise|shared|groupshared|static|uniform|volatile|snorm|unorm|linear|centroid|nointerpolation|noperspective|sample|globallycoherent
 61,(?#型テクスチャ)(texture([1-3]d)?|texture[1-2]darray|texturecube|texturecubearray|texture2dms|texture2dmsarray|rwtexture[1-3]d|rwtexture2darray)(?=\s*\i\c*)
@@ -225,9 +225,9 @@
 /RulerColorEx:0x000089B5
 /RulerBackEx:0x00423607
 /<TreeWord>
-/0000,0002,0000,00000000,40011117,"struct|class|typedef","Structure"
-/0000,0002,0000,00000000,40013115,"(texture([1-3]d)?|texture[1-2]darray|texturecube|texturecubearray|texture2dms|texture2dmsarray|rwtexture[1-3]d|rwtexture2darray)(?=\\s*\\i\\c*)","Texture"
-/0000,0002,0000,00000000,40013115,"(sampler([1-3]d)?|samplercube|sampler_state|samplerstate|samplercomparisonstate)(?=\\s*\\i\\c*)","Sampler"
-/0000,0002,0000,00000000,40013115,"cbuffer|buffer|byteaddressbuffer|consumestructuredbuffer|structuredbuffer|appendstructuredbuffer|rwbuffer|rwbyteaddre","Buffer"
+/0000,0002,0000,00000000,40011517,"^[ \\t]*(struct|class|typedef)\\s+\\i\\c*","Structure"
+/0000,0002,0000,00000000,40013511,"^[ \\t]*(texture|texture1d|texture2d|texture3d|(texture[1-2]darray)|texturecube|texturecubearray|texture2dms|texture2dmsarray|(rwtexture[1-3]d)|rwtexture2darray)(\\s+\\i\\c*)","Texture"
+/0000,0002,0000,00000000,40013515,"^[ \\t]*(sampler([1-3]d)?|samplercube|sampler_state|samplerstate|samplercomparisonstate)\\s+\\i\\c*","Sampler"
+/0000,0002,0000,00000000,40013115,"^[ \\t]*(cbuffer|buffer|byteaddressbuffer|consumestructuredbuffer|structuredbuffer|appendstructuredbuffer|rwbuffer|rwbyteaddre)\\s+\\i\\c*","Buffer"
 /<TreeWordEx>
 /TreeWordExData:0
