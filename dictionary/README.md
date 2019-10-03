@@ -45,7 +45,7 @@ HLSL(High Level Shading Language)の辞書ファイルです。
 
 [汎用キーバインディング変更ソフト「のどか」](https://appletllc.com/web/nodoka.htm)の辞書ファイルです。
 
-辞書に含まれる内容
+## 辞書に含まれる内容
 
 |項目|内容|
 |:--:|:--:|
@@ -88,6 +88,31 @@ HLSL(High Level Shading Language)の辞書ファイルです。
 - [CMake plugin for IntelliJ Idea CE and Android Studio](https://github.com/ArtsiomCh/CMake)
 
 かなり参考にしました、感謝😘
+
+
+
+# bat
+
+Windowsバッチファイルの辞書です。
+
+## 辞書に含まれる内容
+
+|項目|内容|
+|:--:|:--:|
+|コマンド|if,md,enabledelayedexpansion,...,IF,MD,ENABLEDELAYEDEXPANSION,...|
+|利用頻度が高い環境変数|homedrive,temp,...,HOMEDRIVE,TEMP,...|
+
+大文字版と小文字版の単語を登録しました。
+
+
+## 単語補完の検索対象の詳細
+
+![bat設定](images/bat.png "画像タイトル")
+
+## ファイル
+
+[bat.txt](files/bat.txt)
+
 
 # ダウンロード
 
