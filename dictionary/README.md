@@ -118,11 +118,47 @@ Windowsバッチファイルの辞書です。
 
 [filesフォルダ](files)から必要なファイルをダウンロードしてください。
 
+# c++
+
+c++の辞書ファイルです。
+
+C/C++標準ライブラリ、STL、VisualStudioなどから約4000個の単語を登録しています。
+
+
+## 辞書に含まれる内容
+
+|バージョン|対応状況|
+|--|--|
+|C++11|○|
+|C++14|○|
+|C++17|×|
+|C++20|×|
+|C++23|×|
+
+各バージョンの単語をできるだけ登録したつもりですが抜けは色々あると思います😅
+
+C++警察の皆様におかれましては静観していただきますとありがたいです。
+
+## ファイル
+
+[cpp.txt](files/cpp.txt)
+
+## 謝辞
+- [https://github.com/octol/vim-cpp-enhanced-highlight](https://github.com/octol/vim-cpp-enhanced-highlight)
+- [http://www.vim.org/scripts/script.php?script_id=4293](http://www.vim.org/scripts/script.php?script_id=4293)
+- [http://www.vim.org/scripts/script.php?script_id=2224](http://www.vim.org/scripts/script.php?script_id=2224)
+- [http://www.vim.org/scripts/script.php?script_id=1640](http://www.vim.org/scripts/script.php?script_id=1640)
+- [http://www.vim.org/scripts/script.php?script_id=3064](http://www.vim.org/scripts/script.php?script_id=3064)
 
 # 連絡先
 
-<https://ohtorii.hatenadiary.jp>
+- <https://ohtorii.hatenadiary.jp>
+- <https://twitter.com/ohtorii>
+- <https://github.com/ohtorii>
 
-<https://twitter.com/ohtorii>
+# 寄付
 
-<https://github.com/ohtorii>
+もし気に入ってくれたらSteamからゲームを寄付してくれるとうれしいです😘
+- https://store.steampowered.com/wishlist/id/ohtorii
+
+開発の励みになります。
