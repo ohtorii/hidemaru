@@ -10,9 +10,13 @@
 
 
 # 連絡先
+- <https://ohtorii.hatenadiary.jp>
+- <https://twitter.com/ohtorii>
+- <https://github.com/ohtorii>
 
-<https://ohtorii.hatenadiary.jp>
+# 寄付
 
-<https://twitter.com/ohtorii>
+もし気に入ってくれたらSteamからゲームを寄付してくれるとうれしいです😘
+- https://store.steampowered.com/wishlist/id/ohtorii
 
-<https://github.com/ohtorii>
+開発の励みになります。
