@@ -1,5 +1,5 @@
 ﻿//////////////////////////////////////////////////////////////////////////////
-//	C
+//	Ｃ
 //////////////////////////////////////////////////////////////////////////////
 extern
 enum
@@ -13,7 +13,7 @@ while
 for
 return
 
-//type
+//ｔｙｐｅ
 void
 signed
 unsigned
@@ -25,7 +25,7 @@ float
 double
 
 
-//C Common ANSI-standard functions
+//Ｃ　Ｃｏｍｍｏｎ　ＡＮＳＩ－ｓｔａｎｄａｒｄ　ｆｕｎｃｔｉｏｎｓ
 MULU_
 DIVU_
 MODU_
@@ -535,7 +535,7 @@ INT32_C
 INT16_C
 INT8_C
 
-//Common ANSI-standard Names
+//Ｃｏｍｍｏｎ　ＡＮＳＩ－ｓｔａｎｄａｒｄ　Ｎａｍｅｓ
 errno
 environ
 
@@ -555,13 +555,13 @@ bitand
 not
 or_eq
 
-//Booleans
+//Ｂｏｏｌｅａｎｓ
 TRUE
 FALSE
 
 
 //////////////////////////////////////////////////////////////////////////////
-//	CPP
+//	ＣＰＰ
 //////////////////////////////////////////////////////////////////////////////
 extentions
 abort
@@ -1002,13 +1002,13 @@ template
 namespace
 NPOS
 
-//Booleans
+//Ｂｏｏｌｅａｎｓ
 true
 false
 
 
 //////////////////////////////////////////////////////////////////////////////
-//	STL
+//	ＳＴＬ
 //////////////////////////////////////////////////////////////////////////////
 badbit
 cerr
@@ -1092,7 +1092,7 @@ not_equal_to
 plus
 unary_function
 unary_negate
-//any
+//ａｎｙ
 append
 arg
 asctime
@@ -1477,7 +1477,7 @@ showpos
 skipws
 unitbuf
 uppercase
-//ws
+//ｗｓ
 back_insert_iterator
 bidirectional_iterator
 const_iterator
@@ -1700,7 +1700,7 @@ WCHAR_MIN
 WCHAR_MAX
 
 ///////////////////////////////////////////
-//C++11
+//Ｃ＋＋１１
 ///////////////////////////////////////////
 noexcept
 auto
@@ -1719,13 +1719,13 @@ alignas
 alignof
 
 ///////////////////////////////////////////
-//C++14
+//Ｃ＋＋１４
 ///////////////////////////////////////////
 max_align_t
 type_index
 initializer_list
 
-// type_traits
+//　ｔｙｐｅ＿ｔｒａｉｔｓ
 is_void
 is_integral
 is_floating_point
@@ -1818,7 +1818,7 @@ declval
 piecewise_construct
 piecewise_construct_t
 
-// memory
+//　ｍｅｍｏｒｙ
 unique_ptr
 shared_ptr
 weak_ptr
@@ -1848,7 +1848,7 @@ dynamic_pointer_cast
 const_pointer_cast
 get_deleter
 
-// function object
+//　ｆｕｎｃｔｉｏｎ　ｏｂｊｅｃｔ
 bind
 is_bind_expression
 is_placeholder
@@ -1868,23 +1868,23 @@ reference_wrapper
 ref
 cref
 
-//bitset
+//ｂｉｔｓｅｔ
 all
 to_ullong
 
-//iterator
+//ｉｔｅｒａｔｏｒ
 move_iterator
 make_move_iterator
 next
 prev
 
-//program support utilities
+//ｐｒｏｇｒａｍ　ｓｕｐｐｏｒｔ　ｕｔｉｌｉｔｉｅｓ
 quick_exit
 _Exit
 at_quick_exit
 forward
 
-//date and time
+//ｄａｔｅ　ａｎｄ　ｔｉｍｅ
 chrono
 duration
 system_clock
@@ -1894,7 +1894,7 @@ time_point
 duration_cast
 time_point_cast
 
-// tuple
+//　ｔｕｐｌｅ
 tuple
 make_tuple
 tie
@@ -1903,7 +1903,7 @@ tuple_cat
 tuple_size
 tuple_element
 
-//Container
+//Ｃｏｎｔａｉｎｅｒ
 array
 forward_list
 unordered_map
@@ -1921,7 +1921,7 @@ emplace_back
 emplace_front
 emplace_hint
 
-//forward_list
+//ｆｏｒｗａｒｄ＿ｌｉｓｔ
 before_begin
 cbefore_begin
 insert_after
@@ -1929,7 +1929,7 @@ emplace_after
 erase_after
 splice_after
 
-// unordered hash
+//　ｕｎｏｒｄｅｒｅｄ　ｈａｓｈ
 hasher
 key_equal
 local_iterator
@@ -1945,7 +1945,7 @@ reserve
 hash_function
 key_eq
 
-// algorithm
+//　ａｌｇｏｒｉｔｈｍ
 all_of
 any_of
 none_of
@@ -1967,7 +1967,7 @@ minmax_element
 is_permutation
 itoa
 
-//numerics
+//ｎｕｍｅｒｉｃｓ
 imaxabs
 imaxdiv
 remainder
@@ -2027,10 +2027,10 @@ FP_INFINITY
 FP_NAN
 FLT_EVAL_METHOD
 
-//complex
+//ｃｏｍｐｌｅｘ
 proj
 
-//random
+//ｒａｎｄｏｍ
 linear_congruential_engine
 mersenne_twister_engine
 subtract_with_carry_engine
@@ -2071,7 +2071,7 @@ piecewise_constant_distribution
 piecewise_linear_distribution
 seed_seq
 
-//io
+//ｉｏ
 iostream_category
 io_errc
 vscanf
@@ -2083,7 +2083,7 @@ vwscanf
 vfwscanf
 vswscanf
 
-//locale
+//ｌｏｃａｌｅ
 isblank
 iswblank
 wstring_convert
@@ -2093,7 +2093,7 @@ codecvt_utf16
 codecvt_utf8_utf16
 codecvt_mode
 
-//regex
+//ｒｅｇｅｘ
 basic_regex
 sub_match
 match_results
@@ -2108,7 +2108,7 @@ syntax_option_type
 match_flag_type
 error_type
 
-//atomic
+//ａｔｏｍｉｃ
 atomic
 atomic_is_lock_free
 atomic_store
@@ -2184,7 +2184,7 @@ kill_dependency
 atomic_thread_fence
 atomic_signal_fence
 
-//thread
+//ｔｈｒｅａｄ
 thread
 this_thread
 yield
@@ -2233,7 +2233,7 @@ future_errc
 future_error
 future_category
 
-//string
+//ｓｔｒｉｎｇ
 stoi
 stol
 stoll
@@ -2243,7 +2243,7 @@ stof
 stod
 stold
 
-//ratio
+//ｒａｔｉｏ
 ratio
 yocto
 zepto
@@ -2276,16 +2276,16 @@ ratio_less_equal
 ratio_greater
 ratio_greater_equal
 
-//limits
+//ｌｉｍｉｔｓ
 lowest
 
-//cuchar
+//ｃｕｃｈａｒ
 mbrtoc16
 c16rtomb
 mbrtoc32
 c32rtomb
 
-//cinttypes
+//ｃｉｎｔｔｙｐｅｓ
 strtoimax
 strtoumax
 wcstoimax
@@ -2298,32 +2298,32 @@ seconds
 minutes
 hours
 
-//dynarray
+//ｄｙｎａｒｒａｙ
 dynarray
 
-//thread
+//ｔｈｒｅａｄ
 shared_mutex
 shared_lock
 
-//memory
+//ｍｅｍｏｒｙ
 make_unique
 
 
 ///////////////////////////////////////////
-//Boost
+//Ｂｏｏｓｔ
 ///////////////////////////////////////////
-//optional
+//ｏｐｔｉｏｎａｌ
 is
 not
 a
 part
 of
 
-//C++14
+//Ｃ＋＋１４
 anymore
 optional
 
-//value
+//ｖａｌｕｅ
 value_or
 make_optional
 
@@ -2331,7 +2331,7 @@ boost
 lexical_cast
 
 /////////////////////////////////////////////////////////////////////////////
-//	Visual Studio
+//	Ｖｉｓｕａｌ　Ｓｔｕｄｉｏ
 /////////////////////////////////////////////////////////////////////////////
 abs
 labs

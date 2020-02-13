@@ -1,4 +1,4 @@
-﻿//Commands_Scripting
+﻿//Ｃｏｍｍａｎｄｓ＿Ｓｃｒｉｐｔｉｎｇ
 break
 cmake_host_system_information
 cmake_minimum_required
@@ -45,7 +45,7 @@ unset
 variable_watch
 while
 
-//Commands_Project
+//Ｃｏｍｍａｎｄｓ＿Ｐｒｏｊｅｃｔ
 add_compile_options
 add_custom_command
 add_custom_target
@@ -90,7 +90,7 @@ target_sources
 try_compile
 try_run
 
-//CTest
+//ＣＴｅｓｔ
 ctest_build
 ctest_configure
 ctest_coverage
@@ -105,7 +105,7 @@ ctest_test
 ctest_update
 ctest_upload
 
-//Variables_that_Provide_Information
+//Ｖａｒｉａｂｌｅｓ＿ｔｈａｔ＿Ｐｒｏｖｉｄｅ＿Ｉｎｆｏｒｍａｔｉｏｎ
 CMAKE_AR
 CMAKE_ARGC
 CMAKE_ARGV0
@@ -191,7 +191,7 @@ PROJECT_VERSION_MINOR
 PROJECT_VERSION_PATCH
 PROJECT_VERSION_TWEAK
 
-//Variables_that_Change_Behavior
+//Ｖａｒｉａｂｌｅｓ＿ｔｈａｔ＿Ｃｈａｎｇｅ＿Ｂｅｈａｖｉｏｒ
 BUILD_SHARED_LIBS
 CMAKE_ABSOLUTE_DESTINATION_FILES
 CMAKE_APPBUNDLE_PATH
@@ -258,7 +258,7 @@ CMAKE_USER_MAKE_RULES_OVERRIDE
 CMAKE_WARN_DEPRECATED
 CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION
 
-//Variables_that_Describe_the_System
+//Ｖａｒｉａｂｌｅｓ＿ｔｈａｔ＿Ｄｅｓｃｒｉｂｅ＿ｔｈｅ＿Ｓｙｓｔｅｍ
 ANDROID
 APPLE
 BORLAND
@@ -303,7 +303,7 @@ WINDOWS_STORE
 XCODE
 XCODE_VERSION
 
-//Variables_that_Control_the_Build
+//Ｖａｒｉａｂｌｅｓ＿ｔｈａｔ＿Ｃｏｎｔｒｏｌ＿ｔｈｅ＿Ｂｕｉｌｄ
 CMAKE_ANDROID_ANT_ADDITIONAL_OPTIONS
 CMAKE_ANDROID_API
 CMAKE_ANDROID_API_MIN
@@ -395,7 +395,7 @@ CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS
 EXECUTABLE_OUTPUT_PATH
 LIBRARY_OUTPUT_PATH
 
-//Variables_for_Languages
+//Ｖａｒｉａｂｌｅｓ＿ｆｏｒ＿Ｌａｎｇｕａｇｅｓ
 CMAKE_COMPILER_IS_GNUCC
 CMAKE_COMPILER_IS_GNUCXX
 CMAKE_COMPILER_IS_GNUG77
@@ -417,7 +417,7 @@ CMAKE_Fortran_MODOUT_FLAG
 CMAKE_INTERNAL_PLATFORM_ABI
 CMAKE_Swift_LANGUAGE_VERSION
 
-//Variables_for_CTest
+//Ｖａｒｉａｂｌｅｓ＿ｆｏｒ＿ＣＴｅｓｔ
 CTEST_BINARY_DIRECTORY
 CTEST_BUILD_COMMAND
 CTEST_BUILD_NAME
@@ -487,7 +487,7 @@ CTEST_UPDATE_OPTIONS
 CTEST_UPDATE_VERSION_ONLY
 CTEST_USE_LAUNCHERS
 
-//Variables_for_CPack
+//Ｖａｒｉａｂｌｅｓ＿ｆｏｒ＿ＣＰａｃｋ
 CPACK_ABSOLUTE_DESTINATION_FILES
 CPACK_COMPONENT_INCLUDE_TOPLEVEL_DIRECTORY
 CPACK_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION
@@ -497,7 +497,7 @@ CPACK_PACKAGING_INSTALL_PREFIX
 CPACK_SET_DESTDIR
 CPACK_WARN_ON_ABSOLUTE_INSTALL_DESTINATION
 
-//CMAKE_Commands
+//ＣＭＡＫＥ＿Ｃｏｍｍａｎｄｓ
 add_compile_options
 add_custom_command
 add_custom_target
@@ -615,7 +615,7 @@ variable_watch
 while
 write_file
 
-//_Variables
+//＿Ｖａｒｉａｂｌｅｓ
 APPLE
 BORLAND
 BUILD_SHARED_LIBS
@@ -1043,7 +1043,7 @@ WINDOWS_PHONE
 WINDOWS_STORE
 XCODE_VERSION
 
-//Property=
+//Ｐｒｏｐｅｒｔｙ＝
 ABSTRACT
 ADDITIONAL_MAKE_CLEAN_FILES
 ADVANCED
@@ -1346,7 +1346,7 @@ XCODE_EXPLICIT_FILE_TYPE
 XCODE_LAST_KNOWN_FILE_TYPE
 XCTEST
 
-//Operator
+//Ｏｐｅｒａｔｏｒ
 ABSOLUTE
 AND
 BOOL

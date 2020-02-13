@@ -8,7 +8,7 @@ on
 con
 nul
 
-//for
+//ｆｏｒ
 do
 in
 eol
@@ -18,7 +18,7 @@ tokens
 usebackq
 
 
-//setlocal
+//ｓｅｔｌｏｃａｌ
 enableextensions
 disableextensions
 enabledelayedexpansion
@@ -33,7 +33,7 @@ date
 time
 
 
-//if
+//ｉｆ
 equ
 neq
 lss
@@ -148,7 +148,7 @@ ON
 CON
 NUL
 
-//for
+//ｆｏｒ
 DO
 IN
 EOL
@@ -158,7 +158,7 @@ TOKENS
 USEBACKQ
 
 
-//setlocal
+//ｓｅｔｌｏｃａｌ
 ENABLEEXTENSIONS
 DISABLEEXTENSIONS
 ENABLEDELAYEDEXPANSION
@@ -173,7 +173,7 @@ DATE
 TIME
 
 
-//IF
+//ＩＦ
 EQU
 NEQ
 LSS

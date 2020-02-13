@@ -1,4 +1,4 @@
-﻿//Attributes
+﻿//Ａｔｔｒｉｂｕｔｅｓ
 maxvertexcount
 domain
 tri
@@ -202,7 +202,7 @@ GatherCmpGreen
 GatherCmpBlue
 GatherCmpAlpha
 
-//Layout Qualifiers
+//Ｌａｙｏｕｔ　Ｑｕａｌｉｆｉｅｒｓ
 const
 row_major
 column_major
@@ -217,12 +217,12 @@ PointStream
 LineStream
 TriangleStream
 
-// User defined Semantics
+//　Ｕｓｅｒ　ｄｅｆｉｎｅｄ　Ｓｅｍａｎｔｉｃｓ
 packoffset
 register
 
 
-//Vertex Shader
+//Ｖｅｒｔｅｘ　Ｓｈａｄｅｒ
 SV_ClipDistance
 SV_CullDistance
 SV_Position
@@ -230,17 +230,17 @@ SV_InstanceID
 SV_PrimitiveID
 SV_VertexID
 
-//Tessellation pipeline
+//Ｔｅｓｓｅｌｌａｔｉｏｎ　ｐｉｐｅｌｉｎｅ
 SV_DomainLocation
 SV_InsideTessFactor
 SV_OutputControlPointID
 SV_TessFactor
 
-//Geometry Shader
+//Ｇｅｏｍｅｔｒｙ　Ｓｈａｄｅｒ
 SV_GSInstanceID
 SV_RenderTargetArrayIndex
 
-//Pixel Shader - MSAA
+//Ｐｉｘｅｌ　Ｓｈａｄｅｒ　－　ＭＳＡＡ
 SV_Coverage
 SV_Depth
 SV_IsFrontFace
@@ -257,16 +257,16 @@ SV_Target8
 SV_Target9
 SV_Target10
 
-//Compute Shader
+//Ｃｏｍｐｕｔｅ　Ｓｈａｄｅｒ
 SV_DispatchThreadID
 SV_GroupID
 SV_GroupIndex
 SV_GroupThreadID
 
-//HLSL structures
+//ＨＬＳＬ　ｓｔｒｕｃｔｕｒｅｓ
 cbuffer
 
-//Shader profiles
+//Ｓｈａｄｅｒ　ｐｒｏｆｉｌｅｓ
 arbfp1
 arbvp1
 fp20
@@ -305,10 +305,10 @@ hs_5_0
 ps_5_0
 vs_5_0
 
-//Other Statements
+//Ｏｔｈｅｒ　Ｓｔａｔｅｍｅｎｔｓ
 discard
 
-//Storage class
+//Ｓｔｏｒａｇｅ　ｃｌａｓｓ
 in
 out
 inout
@@ -330,7 +330,7 @@ sample
 globallycoherent
 
 
-//Buffer types
+//Ｂｕｆｆｅｒ　ｔｙｐｅｓ
 Buffer
 ByteAddressBuffer
 ConsumeStructuredBuffer
@@ -340,7 +340,7 @@ RWBuffer
 RWByteAddressBuffer
 RWStructuredBuffer
 
-//Scalar types
+//Ｓｃａｌａｒ　ｔｙｐｅｓ
 bool
 int
 uint
@@ -354,7 +354,7 @@ min16int
 min12int
 min16uint
 
-//Vector types
+//Ｖｅｃｔｏｒ　ｔｙｐｅｓ
 vector
 bool1
 bool2
@@ -405,7 +405,7 @@ min16uint2
 min16uint3
 min16uint4
 
-//Matrix types
+//Ｍａｔｒｉｘ　ｔｙｐｅｓ
 matrix
 bool1x1
 bool2x1
@@ -604,7 +604,7 @@ min16uint4x4
 true
 false
 
-//Sampler types
+//Ｓａｍｐｌｅｒ　ｔｙｐｅｓ
 SamplerState
 SamplerComparisonState
 sampler
@@ -614,7 +614,7 @@ sampler3D
 samplerCUBE
 sampler_state
 
-//Texture types
+//Ｔｅｘｔｕｒｅ　ｔｙｐｅｓ
 Texture1D
 Texture1DArray
 Texture2D
@@ -629,7 +629,7 @@ RWTexture2D
 RWTexture2DArray
 RWTexture3D
 
-//Blend state group
+//Ｂｌｅｎｄ　ｓｔａｔｅ　ｇｒｏｕｐ
 AlphaToCoverageEnable
 BlendEnable
 SrcBlend
@@ -662,7 +662,7 @@ REV_SUBSTRACT
 MIN
 MAX
 
-//Rasterizer state group
+//Ｒａｓｔｅｒｉｚｅｒ　ｓｔａｔｅ　ｇｒｏｕｐ
 FillMode
 CullMode
 FrontCounterClockwise
@@ -680,7 +680,7 @@ NONE
 FRONT
 BACK
 
-//Sampler state group
+//Ｓａｍｐｌｅｒ　ｓｔａｔｅ　ｇｒｏｕｐ
 Filter
 AddressU
 AddressV
@@ -724,14 +724,14 @@ CLAMP
 BORDER
 MIRROR_ONCE
 
-//Effect groups, techniques passes
+//Ｅｆｆｅｃｔ　ｇｒｏｕｐｓ，　ｔｅｃｈｎｉｑｕｅｓ　ｐａｓｓｅｓ
 fxgroup
 technique
 technique10
 technique11
 pass
 
-// Effect functions
+// Ｅｆｆｅｃｔ　ｆｕｎｃｔｉｏｎｓ
 SetBlendState
 SetDepthStencilState
 SetRasterizerState
@@ -805,7 +805,7 @@ TEX2
 TEX3
 
 
-//MAYA ビューポート 2.0 の dx11Shader
+//ＭＡＹＡ ビューポート ２．０　の　ｄｘ１１Ｓｈａｄｅｒ
 Object
 UIOrder
 UVEditorOrder
@@ -887,7 +887,7 @@ PrimitiveFilter
 MayaSwatchRender
 
 
-//Softimage XSI
+//Ｓｏｆｔｉｍａｇｅ　ＸＳＩ
 World
 WorldInverse
 WorldInverseTranspose
