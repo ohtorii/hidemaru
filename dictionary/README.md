@@ -1,12 +1,14 @@
 # 秀丸エディタの辞書ファイル
 
 辞書一覧
+
 - [MEL Script(Autodesk MAYA 2019)](#mel-scriptautodesk-maya-2019)
 - [HLSL](#hlsl)
 - [のどか](#のどか)
 - [CMake](#cmake)
-- [ダウンロード](#ダウンロード)
-- [連絡先](#連絡先)
+- [bat](#bat)
+- [c++](#c)
+- [Graphviz](#graphviz)
 
 
 # MEL Script(Autodesk MAYA 2019)
@@ -114,9 +116,6 @@ Windowsバッチファイルの辞書です。
 [bat.txt](files/bat.txt)
 
 
-# ダウンロード
-
-[filesフォルダ](files)から必要なファイルをダウンロードしてください。
 
 # c++
 
@@ -149,6 +148,29 @@ C++警察の皆様におかれましては静観していただきますとあ�
 - [http://www.vim.org/scripts/script.php?script_id=2224](http://www.vim.org/scripts/script.php?script_id=2224)
 - [http://www.vim.org/scripts/script.php?script_id=1640](http://www.vim.org/scripts/script.php?script_id=1640)
 - [http://www.vim.org/scripts/script.php?script_id=3064](http://www.vim.org/scripts/script.php?script_id=3064)
+
+# Graphviz
+
+[Graphviz](http://graphviz.org/)（Dot言語で記述されたグラフ構造を画像ファイルへ出力するツール）の辞書ファイルです。
+
+約1400個の単語を登録しました。
+
+## 設定方法
+
+![Graphviz設定](images/graphviz_dic.png "Graphviz設定")
+
+## ファイル
+
+[graphviz_dic.txt](files/dot.txt)
+
+
+
+
+
+# ダウンロード
+
+[filesフォルダ](files)から必要なファイルをダウンロードしてください。
+
 
 # 連絡先
 

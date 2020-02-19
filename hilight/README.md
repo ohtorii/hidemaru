@@ -9,6 +9,7 @@
 - [HLSL](#hlsl)
 - [のどか](#のどか)
 - [CMake](#cmake)
+- [Graphviz](#graphviz)
 - [ダウンロード](#ダウンロード)
 - [連絡先](#連絡先)
 
@@ -149,6 +150,44 @@ solarized-lightは[https://github.com/Harurow/Hidemaru-Settings](https://github.
 ## ファイル
 
 [cmake.hilight](files/cmake.hilight)
+
+
+# Graphviz
+
+[Graphviz](http://graphviz.org/)（Dot言語で記述されたグラフ構造を画像ファイルへ出力するツール）の強調表示です。
+
+## スクリーンショット
+
+![スクリーンショット](images/graphviz.png "スクリーンショット")
+
+強調表示定義ファイルを読み込むときに「カラー」を選択すると、上のスクリーンショットと同じ配色になります。
+
+## 強調するもの
+
+- Keyword
+- Arrow shapes
+- Node shapes
+- Node, Edge and Graph Attributes
+- Rank
+- Directed graph
+- Undirected graph
+
+
+![hilight](images/graphviz_hilight.png "hilight")
+
+見ての通り要素毎に細かく分けています、なので、好みに応じた配色にしてください。 あと、不要な要素を削除することでシンプルなハイライトに出来ます
+
+## アウトライン
+
+![tree](images/graphviz_tree.png "tree")
+
+こちらも見ての通り要素毎に細かく分けています。好みに応じてカスタマイズしてください。
+
+
+## ファイル
+
+[graphviz.hilight](files/graphviz.hilight)
+
 
 
 # ダウンロード
