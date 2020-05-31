@@ -23,7 +23,7 @@ MELコマンド一覧は以下の一行スクリプトで得ています。（�
 
 ## ファイル
 
-[maya_mel.txt](files/maya_mel.txt)
+[oh_maya_mel.txt](files/oh_maya_mel.txt)
 
 # HLSL
 
@@ -36,7 +36,7 @@ HLSL(High Level Shading Language)の辞書ファイルです。
 
 ## ファイル
 
-[hlsl.txt](files/hlsl.txt)
+[oh_hlsl.txt](files/oh_hlsl.txt)
 
 ## 謝辞
 - [hlsl.vim](https://github.com/beyondmarc/hlsl.vim)
@@ -69,7 +69,7 @@ HLSL(High Level Shading Language)の辞書ファイルです。
 
 ## ファイル
 
-[nodoka.txt](files/nodoka.txt)
+[oh_nodoka.txt](files/oh_nodoka.txt)
 
 # CMake
 
@@ -82,7 +82,7 @@ HLSL(High Level Shading Language)の辞書ファイルです。
 
 ## ファイル
 
-[cmake.txt](files/cmake.txt)
+[oh_cmake.txt](files/oh_cmake.txt)
 
 
 ## 謝辞
@@ -113,7 +113,7 @@ Windowsバッチファイルの辞書です。
 
 ## ファイル
 
-[bat.txt](files/bat.txt)
+[oh_bat.txt](files/oh_bat.txt)
 
 
 
@@ -140,7 +140,7 @@ C++警察の皆様におかれましては静観していただきますとあ�
 
 ## ファイル
 
-[cpp.txt](files/cpp.txt)
+[oh_cpp.txt](files/oh_cpp.txt)
 
 ## 謝辞
 - [https://github.com/octol/vim-cpp-enhanced-highlight](https://github.com/octol/vim-cpp-enhanced-highlight)
@@ -161,7 +161,7 @@ C++警察の皆様におかれましては静観していただきますとあ�
 
 ## ファイル
 
-[graphviz_dic.txt](files/dot.txt)
+[oh_dot.txt](files/oh_dot.txt)
 
 
 
