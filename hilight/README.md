@@ -39,7 +39,7 @@ VIMスクリプトのコードリーディングを主目的として以下方�
 - 関数
 
 ## ファイル
-[vim.hilight](files/vim.hilight)
+[oh_vim.hilight](files/oh_vim.hilight)
 
 
 
@@ -47,7 +47,7 @@ VIMスクリプトのコードリーディングを主目的として以下方�
 
 ## ファイル
 
-[shell.hilight](files/shell.hilight)
+[oh_shell.hilight](files/oh_shell.hilight)
 
 # MEL Script(Autodesk MAYA 2019)
 
@@ -61,7 +61,7 @@ VIMスクリプトのコードリーディングを主目的として以下方�
 
 ## ファイル
 
-[maya_mel.hilight](files/maya_mel.hilight)
+[oh_maya_mel.hilight](files/oh_maya_mel.hilight)
 
 ## 補足
 
@@ -74,7 +74,7 @@ VIMスクリプトのコードリーディングを主目的として以下方�
 
 ## ファイル
 
-[maxscript.hilight](files/maxscript.hilight)
+[oh_maxscript.hilight](files/oh_maxscript.hilight)
 
 # HLSL	
 
@@ -114,7 +114,7 @@ HLSL(High Level Shading Language)の強調表示です。
 
 ## ファイル
 
-[hlsl.hilight](files/hlsl.hilight)
+[oh_hlsl.hilight](files/oh_hlsl.hilight)
 
 
 # のどか
@@ -129,7 +129,7 @@ solarized-lightは[https://github.com/Harurow/Hidemaru-Settings](https://github.
 
 ## ファイル
 
-[nodoka.hilight](files/nodoka.hilight)
+[oh_nodoka.hilight](files/oh_nodoka.hilight)
 
 # CMake
 
@@ -149,7 +149,7 @@ solarized-lightは[https://github.com/Harurow/Hidemaru-Settings](https://github.
 
 ## ファイル
 
-[cmake.hilight](files/cmake.hilight)
+[oh_cmake.hilight](files/oh_cmake.hilight)
 
 
 # Graphviz
@@ -186,7 +186,7 @@ solarized-lightは[https://github.com/Harurow/Hidemaru-Settings](https://github.
 
 ## ファイル
 
-[graphviz.hilight](files/graphviz.hilight)
+[oh_graphviz.hilight](files/oh_graphviz.hilight)
 
 
 
