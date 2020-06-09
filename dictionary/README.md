@@ -6,9 +6,14 @@
 - [HLSL](#hlsl)
 - [のどか](#のどか)
 - [CMake](#cmake)
+- [Makefile](#makefile)
 - [bat](#bat)
 - [c++](#c)
 - [Graphviz](#graphviz)
+- [protocol buffers](#protocol-buffers)
+- [ダウンロード](#ダウンロード)
+- [連絡先](#連絡先)
+- [寄付](#寄付)
 
 
 # MEL Script(Autodesk MAYA 2019)
@@ -92,6 +97,49 @@ HLSL(High Level Shading Language)の辞書ファイルです。
 かなり参考にしました、感謝😘
 
 
+# Makefile
+
+Makefileの辞書ファイルです。
+
+## 辞書に含む内容
+
+- 関数
+- 自動変数
+- 条件分岐
+- define
+- gnu make特有の変数
+- 暗黙ルールで使われている変数
+- 追加の引数
+- 特別なビルトイン・ターゲット名
+
+## 設定方法
+
+makefileで頻繁に利用する以下文字を候補に挙げるため、
+
+	$@
+	$%
+	$<
+	$(CXXFLAGS)
+	$(CFLAGS)
+	  :
+	  :
+
+単語補完を書き画像のように設定してください。
+
+|設定名|文字列|
+|:--:|:--:|
+|単語先頭の文字|$.-({|
+|単語途中の文字|({|
+|単語終了文字|)}|
+
+![makefile設定](images/makefile.png "makefile設定")
+
+
+## ファイル
+
+[oh_makefile.txt](files/oh_makefile.txt)
+
+
 
 # bat
 
@@ -164,6 +212,32 @@ C++警察の皆様におかれましては静観していただきますとあ�
 [oh_dot.txt](files/oh_dot.txt)
 
 
+#  protocol buffers
+
+[protocol buffers](https://developers.google.com/protocol-buffers)(Googleが開発したシリアライズフォーマット)の辞書ファイルです。
+
+## 辞書に含む内容
+
+- 真偽値
+- extend
+- field option
+- file option
+- repeat
+- rpc
+- service
+- structure
+- syntax
+- type map
+- type
+- enum
+
+
+## 設定方法
+![protobuf設定](images/proto.png "protobuf設定")
+
+## ファイル
+
+[oh_proto.txt](files/oh_proto.txt)
 
 
 

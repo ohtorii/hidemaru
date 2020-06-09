@@ -152,6 +152,60 @@ solarized-lightは[https://github.com/Harurow/Hidemaru-Settings](https://github.
 [oh_cmake.hilight](files/oh_cmake.hilight)
 
 
+# Makefile
+
+Makefileの強調表示です。
+
+## スクリーンショット
+![Makefile](images/makefile.png "Makefile")
+
+## 強調するもの
+- define
+- include
+- マクロ
+- 関数
+- 自動変数
+- 条件分岐
+- 追加の引数
+- ルール
+- 暗黙ルール
+- GNU-Make特有
+
+## ファイル
+
+[oh_makefile.hilight](files/oh_makefile.hilight)
+
+
+# protocol buffers
+
+[protocol buffers](https://developers.google.com/protocol-buffers)(Googleが開発したシリアライズフォーマット)の強調表示です。
+
+## スクリーンショット
+
+![protobuf](images/proto.png "protobuf")
+
+## 強調するもの
+
+- Type map
+- Type
+- Bool
+- RPC
+- Exted
+- Syntax
+- File option
+- Reepeat
+- Structure
+- Enum
+- Service
+- Field option
+
+
+## ファイル
+
+[oh_proto.hilight](files/oh_proto.hilight)
+
+
+
 # Graphviz
 
 [Graphviz](http://graphviz.org/)（Dot言語で記述されたグラフ構造を画像ファイルへ出力するツール）の強調表示です。
