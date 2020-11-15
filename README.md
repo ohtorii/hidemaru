@@ -6,6 +6,7 @@
 |:--:|:--:|
 |[hilight](hilight/README.md)|強調表示ファイル|
 |[dictionary](dictionary/README.md)|辞書ファイル|
+|[app](app/README.md)|辞書作成の補助アプリ|
 
 
 
